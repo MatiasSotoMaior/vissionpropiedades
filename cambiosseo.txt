@@ -1,0 +1,9 @@
+cambios seo
+1-Agregué description.
+2-Agregué keywords
+3-Agregué h1 al index
+4-Agregué img que tiene que ver con el h1
+5-Agregué em
+6-Agregué strong
+7-Comprimí las fotos
+8-carpetas??

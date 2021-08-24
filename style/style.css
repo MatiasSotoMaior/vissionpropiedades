@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+/* nav {
+    background-color: $bg-info;
+} */
+/* variables */
+.button--info {
+  background-color: #07adca;
+  border-radius: 0.2em;
+  color: white;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-decoration: none; }
+  .button--info:hover {
+    background-color: #068ea7;
+    color: white;
+    transition: all .4s; }
+
+.button--success {
+  background-color: #098d1b;
+  border-radius: 0.2em;
+  color: white;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-decoration: none; }
+  .button--success:hover {
+    background-color: #016e0a;
+    color: white;
+    transition: all .4s; }
+
+.button--danger {
+  background-color: #b60e0e;
+  border-radius: 0.2em;
+  color: white;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-decoration: none; }
+  .button--danger:hover {
+    background-color: #990e0b;
+    color: white;
+    transition: all .4s; }
+
+.header__title {
+  text-transform: uppercase;
+  text-align: center; }
+
+.card__title--uppercase {
+  text-transform: uppercase; }
+
+/* footer {
+    font-size: small;
+} */
+/* GENERAL */
+.tasaciones {
+  margin: 1em;
+  padding: 1em;
+  border-style: solid;
+  border-color: #363636;
+  background-image: url(../img/bgpatronclaro.jpg);
+  font-weight: 600; }
+
+.tasaciones__form {
+  padding: 0.5em;
+  border-style: solid;
+  border-color: #363636; }
+
+.body--background {
+  background-image: url(../img/bgpatronclaro.jpg); }
+
+.selector--greybg {
+  background-color: rgba(49, 49, 49, 0.432); }
+
+.selector--marginpadding {
+  margin: 0.4em;
+  padding: 0.6em; }
+
+.selector__button {
+  border-style: solid;
+  width: fit-content; }
+
+.article--background {
+  background-color: rgba(206, 206, 206, 0.452); }
+
+.article--font {
+  font-weight: 500;
+  text-decoration: none; }
+
+.contacto {
+  margin: 1em;
+  padding: 1em;
+  border-style: solid;
+  border-color: #363636;
+  background-image: url(../img/bgpatronclaro.jpg);
+  font-weight: 600; }
+
+.contacto__form {
+  padding: 0.5em;
+  border-style: solid;
+  border-color: #363636; }
+
+.section__title--error {
+  text-align: center;
+  background-color: rgba(134, 134, 134, 0.452); }
+
+.section__title--font {
+  font-size: 5em;
+  font-weight: 500; }
+
+.section__p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400; }

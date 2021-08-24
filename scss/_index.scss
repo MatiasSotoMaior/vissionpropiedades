@@ -1,0 +1,27 @@
+// GENERAL
+.body--background {
+    background-image: url(../img/bgpatronclaro.jpg);
+}
+
+.selector--greybg {
+    background-color: rgba(49, 49, 49, 0.432);
+}
+
+.selector--marginpadding {
+    margin: 0.4em;
+    padding: 0.6em;
+}
+
+.selector__button {
+    border-style: solid;
+    width: fit-content;
+}
+
+.article--background {
+    background-color: rgba(206, 206, 206, 0.452);
+}
+
+.article--font {
+    font-weight: 500;
+    text-decoration: none;
+}

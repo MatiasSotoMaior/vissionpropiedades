@@ -31,10 +31,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./html/tasaciones.html">Tasaciones</a>
+                        <a class="nav-link" href="./html/tasaciones.html">Tasaciones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="html/venta.html">En Venta</a>
+                        <a class="nav-link" href="html/venta.html">En venta</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -84,12 +84,15 @@
 
                 <article class="col-lg-6 text-center article--background">
                     <h1>Vission Propiedades</h1>
-                    <p class="fs-5 article--font">Somos expertos en Soluciones <strong>Inmobiliarias</strong>. Nuestra principal meta es satisfacer las necesidades del cliente, gestionando, solucionando y brindando todo <em>tipo de información sobre propiedades</em> dando como resultado
-                        un asesoramiento integral.</p>
+                    <p class="fs-5 article--font mt-5">Somos expertos en Soluciones <strong>Inmobiliarias.</strong></p>
+                    <p class="fs-5 article--font mt-4">Nuestra principal meta es satisfacer las necesidades del cliente</p>
+                    <p class="fs-5 article--font mt-4">gestionando, solucionando y brindando</p>
+                    <p class="fs-5 article--font mt-4">todo <em>tipo de información sobre propiedades,</em></p>
+                    <p class="fs-5 article--font mt-4">dando como resultado un asesoramiento integral.</p>
                 </article>
 
                 <article class="col-lg-6 text text-center">
-                    <h3>¿Dónde nos ubicamos?</h3>
+                    <h3 class="header__title select--greybg ms-5">¿Dónde nos ubicamos?</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7831.191824656545!2d-59.07281137461685!3d-34.38582382918207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcbe05b4a3bd02fa0!2sVission%20propiedades!5e0!3m2!1ses!2sar!4v1627731200746!5m2!1ses!2sar"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </article>
@@ -100,41 +103,60 @@
     <!--termina info nuestra-->
 
     <!--esto va ser un lugar donde poder hacer una busqueda personalizada de tu propiedad-->
-    <section class=" text-center selector--greybg selector--marginpadding">
-        <header>
-            <h2>¿Qué buscas?</h2>
+    <section class="select--greybg select--marginpadding">
+        <header class="header__title mb-4">
+            <h2>¿qué buscas?</h2>
         </header>
-        <form>
-            <div class="d-flex justify-content-evenly mt-3">
-                <div class="selector__button">
-                    <select name="Alquiler">
-                <option value="Alquiler temporal">alquiler temporal</option>
-                <option value="Alquiler">alquiler</option>
-                <option value="En venta">En venta</option>
-                <option value="Oportunidades">oportunidades</option>
-                </select>
-                </div>
-
-                <div class="selector__button">
-                    <select name="Tipo de casa"> 
-                <option value="Casa quinta">Casa quinta</option>
-                <option value="Chacra">Chacra</option>
-                <option value="Departamento">Departamento</option>
-                <option value="lote">Lote</option>
-                </select>
-                </div>
-
-                <div class="selector__button">
-                    <select name="Ubicacion">
-                <option value="El Remanso">El Remanso</option>
-                <option value="Manzanares">Manzanares</option>
-                <option value="Parque Jularo">Parque Jularo</option>
-                <option value="Parque Exaltación">Parque exaltación</option>
-                <option value="Parada Robles">Parada Robles</option>
-                </select>
-                </div>
+        <hr width="100%" size="6">
+        <div class="d-flex justify-content-center">
+            <div class="dropdown mx-1">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                Operación
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Venta</a></li>
+                    <li><a class="dropdown-item" href="#">Alquiler</a></li>
+                    <li><a class="dropdown-item" href="#">Alquiler temporal</a></li>
+                </ul>
             </div>
-        </form>
+
+            <div class="dropdown mx-1">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                Ubicación
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">El Remanso</a></li>
+                    <li><a class="dropdown-item" href="#">El Malacate</a></li>
+                    <li><a class="dropdown-item" href="#">Parque Exaltación</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown mx-1 select--size">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                Tipo
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Casa</a></li>
+                    <li><a class="dropdown-item" href="#">Casa quinta</a></li>
+                    <li><a class="dropdown-item" href="#">Lote</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown mx-1 select--size">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                Valor
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Peso</a></li>
+                    <li><a class="dropdown-item" href="#">Dólar</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center my-3">
+            <a href="#"><button type="button" class="btn btn-success">¡Buscar!</button></a>
+        </div>
+        <hr width="100%" size="6">
     </section>
     <!--termina sección de busqueda-->
 
@@ -145,12 +167,12 @@
             <div class="row">
                 <div class="col-lg-6 mt-5">
                     <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item active " aria-current="page">Home</li>
-                            <li class="breadcrumb-item"><a href="html/tasaciones.html">Tasaciones</a></li>
-                            <li class="breadcrumb-item"><a href="html/venta.html">Ventas</a></li>
-                            <li class="breadcrumb-item"><a href="html/alquiler.html">Alquiler</a></li>
-                            <li class="breadcrumb-item"><a href="html/contacto.html">Contacto</a></li>
+                        <ol class="breadcrumb text-light">
+                            <li class="breadcrumb-item"><a href="#" class="text-light text-decoration-none">Home</a></li>
+                            <li class="breadcrumb-item"><a href="html/tasaciones.html" class="text-light ">Tasaciones</a></li>
+                            <li class="breadcrumb-item"><a href="html/venta.html" class="text-light">Ventas</a></li>
+                            <li class="breadcrumb-item"><a href="html/alquiler.html" class="text-light">Alquiler</a></li>
+                            <li class="breadcrumb-item"><a href="html/contacto.html" class="text-light">Contacto</a></li>
                         </ol>
                     </nav>
                 </div>

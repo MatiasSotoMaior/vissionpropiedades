@@ -7,6 +7,9 @@
     background-color: $bg-info;
 } */
 /* variables */
+strong {
+  font-weight: 600; }
+
 .button--info {
   background-color: #07adca;
   border-radius: 0.2em;
@@ -59,7 +62,8 @@
   padding: 1em;
   border-style: solid;
   border-color: #363636;
-  background-image: url(../img/bgpatronclaro.jpg);
+  background-image: url(../img/patron5.jpg);
+  background-attachment: fixed;
   font-weight: 600; }
 
 .tasaciones__form {
@@ -68,37 +72,34 @@
   border-color: #363636; }
 
 .body--background {
-  background-image: url(../img/bgpatronclaro.jpg); }
+  background-image: url(../img/patron5.jpg);
+  background-attachment: fixed; }
 
-.selector--greybg {
-  background-color: rgba(49, 49, 49, 0.432); }
+.select--greybg {
+  background-color: rgba(206, 206, 206, 0.452); }
 
-.selector--marginpadding {
+.select--marginpadding {
   margin: 0.4em;
   padding: 0.6em; }
 
-.selector__button {
+.select--border {
   border-style: solid;
-  width: fit-content; }
+  border-color: #464646; }
 
 .article--background {
   background-color: rgba(206, 206, 206, 0.452); }
 
 .article--font {
-  font-weight: 500;
-  text-decoration: none; }
-
-.footer__div--topborder {
-  border-top-style: solid;
-  border-top-color: black;
-  border-top-width: 1em; }
+  font-weight: 600;
+  font-style: italic; }
 
 .contacto {
   margin: 1em;
   padding: 1em;
   border-style: solid;
   border-color: #363636;
-  background-image: url(../img/bgpatronclaro.jpg);
+  background-image: url(../img/patron5.jpg);
+  background-attachment: fixed;
   font-weight: 600; }
 
 .contacto__form {

@@ -1,11 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+.body--background {
+  background-image: url(../img/patron5.jpg);
+  background-attachment: fixed; }
+
+.select--greybg {
+  background-color: rgba(206, 206, 206, 0.452); }
+
+.select--marginpadding {
+  margin: 0.4em;
+  padding: 0.6em; }
+
+.select--border {
+  border-style: solid;
+  border-color: #464646; }
+
+.article--background {
+  background-color: rgba(206, 206, 206, 0.452); }
+
+.article--font {
+  font-weight: 600;
+  font-style: italic; }
+
 * {
   margin: 0;
   padding: 0; }
 
-/* nav {
-    background-color: $bg-info;
-} */
 /* variables */
 strong {
   font-weight: 600; }
@@ -56,6 +75,9 @@ strong {
 /* footer {
     font-size: small;
 } */
+/* nav {
+    background-color: $bg-info;
+} */
 /* GENERAL */
 .tasaciones {
   margin: 1em;
@@ -67,42 +89,6 @@ strong {
   font-weight: 600; }
 
 .tasaciones__form {
-  padding: 0.5em;
-  border-style: solid;
-  border-color: #363636; }
-
-.body--background {
-  background-image: url(../img/patron5.jpg);
-  background-attachment: fixed; }
-
-.select--greybg {
-  background-color: rgba(206, 206, 206, 0.452); }
-
-.select--marginpadding {
-  margin: 0.4em;
-  padding: 0.6em; }
-
-.select--border {
-  border-style: solid;
-  border-color: #464646; }
-
-.article--background {
-  background-color: rgba(206, 206, 206, 0.452); }
-
-.article--font {
-  font-weight: 600;
-  font-style: italic; }
-
-.contacto {
-  margin: 1em;
-  padding: 1em;
-  border-style: solid;
-  border-color: #363636;
-  background-image: url(../img/patron5.jpg);
-  background-attachment: fixed;
-  font-weight: 600; }
-
-.contacto__form {
   padding: 0.5em;
   border-style: solid;
   border-color: #363636; }
@@ -119,3 +105,17 @@ strong {
   text-align: center;
   font-size: 2em;
   font-weight: 400; }
+
+.contacto {
+  margin: 1em;
+  padding: 1em;
+  border-style: solid;
+  border-color: #363636;
+  background-image: url(../img/patron5.jpg);
+  background-attachment: fixed;
+  font-weight: 600; }
+
+.contacto__form {
+  padding: 0.5em;
+  border-style: solid;
+  border-color: #363636; }

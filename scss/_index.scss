@@ -26,3 +26,13 @@
     font-weight: 600;
     font-style: italic;
 }
+
+.iframe {
+    width: 20em;
+}
+
+@media screen and (max-width: 440px) {
+    .rps {
+        margin: 0;
+    }
+}

@@ -69,13 +69,21 @@
                                 <label for="name">Nombre completo:</label>
                                 <input type="text" id="name" name="name" placeholder="Matias Soto">
                             </div>
-                            <div class="col-lg-6 mb-2">
-                                <label for="phone">Telefono:</label>
-                                <input type="tel" id="phone" name="phone" placeholder="011 9999 9999">
+                            <div class="col-lg-6 mb-2 form__div--rps">
+                                <div>
+                                    <label for="phone">Telefono:</label>
+                                </div>
+                                <div>
+                                    <input type="tel" id="phone" name="phone" placeholder="011 9999 9999">
+                                </div>
                             </div>
-                            <div class="col-lg-6 mb-2">
-                                <label for="ubi">Ubicación:</label>
-                                <input type="text" id="ubi" name="ubi" placeholder="El Remanso, Robles, etc">
+                            <div class="col-lg-6 mb-2 form__div--rps">
+                                <div>
+                                    <label for="ubi">Ubicación:</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="ubi" name="ubi" placeholder="El Remanso, Robles, etc">
+                                </div>
                             </div>
                             <div class="col-lg-6 mb-2">
                                 <label for="prop">Tipo de propiedad a tasar:</label>
@@ -91,7 +99,7 @@
                             <p class="select--greybg fs-5 mt-1">Cuéntenos uno poco cuales son sus objetivos al tasar la propiedad, si tiene algun precio predefinido, etc.</p>
                         </label>
                     </div>
-                    <textarea id="consulta" placeholder="Escriba aqui..." rows="10" cols="50"></textarea>
+                    <textarea id="consulta" placeholder="Escriba aqui..." class="form__textarea"></textarea>
                     <div>
                         <input type="reset" value="Borrar Todo" class="button--danger">
                         <input type="submit" value="Enviar" class="button--success">

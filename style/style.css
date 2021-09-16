@@ -21,12 +21,22 @@
   font-weight: 600;
   font-style: italic; }
 
+.form__div--rps {
+  display: flex; }
+
+.form__textarea {
+  width: 30em;
+  height: 20vh; }
+
 /* .iframe {
     width: 70vw;
 } */
-@media screen and (max-width: 440px) {
-  .rps {
-    margin: 0; } }
+@media screen and (max-width: 500px) {
+  .form__div--rps {
+    display: inline; }
+  .form__textarea {
+    width: 15em;
+    height: 10vh; } }
 
 * {
   margin: 0;
